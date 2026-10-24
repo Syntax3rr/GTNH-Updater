@@ -1,44 +1,27 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-bun-debug.log*
-lerna-debug.log*
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# Dependencies
-node_modules
+# Test binary, built with `go test -c`
+*.test
 
-# Vite
-dist
-dist-ssr
-*.local
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+!coverage.go
+*.coverprofile
+profile.cov
 
-# Rust / Cargo
-target
-**/*.rs.bk
+# Go workspace file
+go.work
+go.work.sum
 
-# Tauri
-src-tauri/gen/schemas
-src-tauri/WixTools
-
-# Environment
+# env file
 .env
-.env.*
-!.env.example
 
-# Editor
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# OS
-.DS_Store
-Thumbs.db
+# Editor/IDE
+.idea/
+.vscode/

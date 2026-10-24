@@ -1,7 +1,12 @@
-# Tauri + React + Typescript
+# GTNH Updater
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+This is an unofficial updater tool for the GT New Horizons Minecraft modpack.
 
-## Recommended IDE Setup
+It's written in Go, and strives to be as low-effort as possible
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Here are the currently in-progress features:
+- [ ] Auto-detect the current GTNH version
+- [ ] Install the next version as a new instance in Prism Launcher
+- [ ] Automatically move the required files from the old instance to the new one.
+- [ ] Detect when the user has made changes to configs / modlist
+- [ ] Graphical UI
